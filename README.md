@@ -26,7 +26,7 @@ Building an ANN model using Keras
 
 Model Evaluation (Accuracy, Confusion Matrix)
 
-Streamlit-based Web App for Deployment
+flask-based Web App for Deployment
 
 🧩 Model Architecture
 Layer	Units	Activation
@@ -35,20 +35,16 @@ Dense	4	ReLU
 Dense	1	Sigmoid
 📈 Results
 
-Accuracy: ~85–90% on test set
+Accuracy: ~85% on test set
 
 Loss curve and accuracy plots show stable learning.
-
-🚀 Deployment
-
-You can try the live app here: [Your Streamlit App Link]
 
 To run locally:
 
 git clone https://github.com/yourusername/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 pip install -r requirements.txt
-streamlit run app.py
+app app.py
 
 🧾 Requirements
 tensorflow
@@ -57,7 +53,7 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-streamlit
+Flask
 
 ✍️ Author
 
