@@ -44,7 +44,7 @@ To run locally:
 git clone https://github.com/yourusername/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 pip install -r requirements.txt
-app app.py
+python app.py
 
 🧾 Requirements
 tensorflow
@@ -54,6 +54,7 @@ matplotlib
 seaborn
 scikit-learn
 Flask
+<img width="1481" height="777" alt="image" src="https://github.com/user-attachments/assets/a1160066-ad19-4f8e-acba-19a02fead860" />
 
 ✍️ Author
 
